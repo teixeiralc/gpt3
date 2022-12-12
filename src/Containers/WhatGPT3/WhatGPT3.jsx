@@ -4,7 +4,7 @@ import styles from './WhatGPT3.module.css';
 
 const WhatGPT3 = () => {
   return (
-    <div className="section__padding">
+    <section className="section__padding">
       <div className={`${styles.whatgpt3} `} id="wgpt3">
         <div className={styles.feature}>
           <Feature
@@ -34,7 +34,7 @@ const WhatGPT3 = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

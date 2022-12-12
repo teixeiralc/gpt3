@@ -1,0 +1,47 @@
+.features {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  justify-content: center;
+  align-items: start;
+}
+
+.heading h2 {
+  font-size: 2.125rem;
+  font-family: var(--font-family);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  max-width: 450px;
+}
+
+.heading p {
+  font-family: var(--font-family);
+  color: var(--color-subtext);
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+.side_features > div {
+  margin: 0;
+}
+
+.side_features > div:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 770px) {
+  .features {
+    grid-template-columns: 1fr;
+  }
+  .heading {
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .heading h2 {
+    font-size: 1.5rem;
+  }
+  .heading p {
+    font-size: .875rem;
+  }
+}

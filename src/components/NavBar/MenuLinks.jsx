@@ -7,7 +7,7 @@ const MenuLinks = () => {
         <a href="#home">Home</a>
       </li>
       <li>
-        <a href="#wgpt3">What is GPT3</a>
+        <a href="#wgpt3">What is GPT3?</a>
       </li>
       <li>
         <a href="#possibility">Open AI</a>
