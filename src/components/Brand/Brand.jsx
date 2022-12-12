@@ -1,5 +1,5 @@
 import React from 'react';
-import { google, slack, atlassian, dropbox, shopify } from './importImages';
+import { google, slack, atlassian, dropbox, shopify } from './importBrandImages';
 import styles from './Brand.module.css';
 
 const brands = [google, slack, atlassian, dropbox, shopify];

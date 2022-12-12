@@ -53,11 +53,11 @@
 
 .form button {
   width: 20%;
-  background-color: var(--color-emphasis);
+  background-color: var(--color-primary);
   border: none;
   outline: none;
   border-radius: 0 5px 5px 0;
-  padding: 0 .7rem;
+  padding: 0 0.7rem;
   font-family: var(--font-family);
   font-size: 1rem;
   font-weight: 500;
@@ -68,7 +68,7 @@
 
 .form button:hover,
 .form button:focus {
-  background-color: var(--color-dark-emphasis);
+  background-color: var(--color-dark-primary);
 }
 
 .hero_people {

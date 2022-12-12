@@ -8,7 +8,7 @@
 
 .inner_cta {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   padding: 1rem;
 }
 
@@ -21,6 +21,7 @@
 .content h3 {
   font-size: 1.5rem;
   font-weight: 700;
+  line-height: 1.5;
 }
 
 button {

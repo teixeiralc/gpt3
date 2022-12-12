@@ -9,7 +9,7 @@ const CallToAction = () => {
           <p>Request Early Access to Get Started</p>
           <h3>Register today & start exploring the endless possiblities.</h3>
         </div>
-          <button type="button">Get Started</button>
+        <button type="button">Get Started</button>
       </div>
     </div>
   );

@@ -31,7 +31,7 @@
 .mobileMenu_wrapper button {
   padding: 0.5rem 1rem;
   color: #ffffff;
-  background-color: var(--color-emphasis);
+  background-color: var(--color-primary);
   border-radius: 5px;
   font-family: var(--font-family);
   font-weight: 500;
@@ -39,6 +39,10 @@
   border: none;
   outline: none;
   cursor: pointer;
+}
+
+.sign_in button:hover {
+  background: var(--color-dark-primary);
 }
 
 .links li,

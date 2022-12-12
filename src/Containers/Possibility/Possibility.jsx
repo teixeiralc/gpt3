@@ -12,7 +12,6 @@ const Possibility = () => {
         <img src={Photo} alt="Possibility" />
       </div>
       <div className={styles.content}>
-        <h4>Request Early Access to Get Started</h4>
         <h2 className="gradient__text">
           The possibilities are beyond your imagination
         </h2>
