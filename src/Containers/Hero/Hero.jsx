@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className={`${styles.hero} section__padding`} id="home">
       <div className={styles.content}>
-        <div className={styles.info}>
+        <div className={`${styles.info} slide-in-bottom`}>
           <h1 className="gradient__text">
             Let’s build something amazing with GPT-3 OpenAI
           </h1>
@@ -29,7 +29,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className={styles.hero_img}>
+        <div className={`${styles.hero_img} slide-in-top`}>
           <img src={ai} alt="GPT-3 OpenAI" />
         </div>
       </div>

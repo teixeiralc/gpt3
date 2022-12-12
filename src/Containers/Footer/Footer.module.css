@@ -22,20 +22,23 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
   margin-bottom: 10rem;
-}
-
-.btn:hover {
-  background-color: var(--gradient-bar);
 }
 
 .btn a {
   padding: 1rem 2rem;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   color: #fff;
   font-size: 1.125rem;
   font-weight: 500;
+}
+
+.btn:hover {
+  background: var(--gradient-bar);
+}
+
+.btn:hover a {
+  border-color: transparent;
 }
 
 .footer_links {
