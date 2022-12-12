@@ -1,0 +1,16 @@
+.brand {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;  
+}
+
+.brand li {
+  flex: 1 ;
+  max-width: 150px;
+  min-width: 120px;
+
+  display: flex;
+  justify-content: center;
+}
